@@ -1,0 +1,49 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+
+# Logs
+*.log
+logs/
+
+# Data cache / intermediate exports
+data/tmp*/
+outputs/
+reports/
+
+# Model artifacts
+models/
+*.pkl
+*.joblib
+
+# Temporary CSV/Excel exports
+export_*.csv
+export_*.xlsx
+
+# Coverage / test
+htmlcov/
+.coverage*
+.pytest_cache/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
